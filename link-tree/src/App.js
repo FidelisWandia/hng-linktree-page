@@ -1,5 +1,6 @@
 import React from 'react'
 import './index.css'
+import Links from './links'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         {/* <p id="slack">Fidelis Mundia</p> */} 
         </div>
       </section>
+      <Links />
     </div>
   )
 }
